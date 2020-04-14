@@ -1,0 +1,81 @@
+@font-face {
+    font-family: Montserrat;
+    src: url('fonts/Montserrat-Medium.ttf');
+}
+
+@font-face {
+    font-family: NunitoSans;
+    src: url('fonts/NunitoSans-Regular.ttf');
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.my-button {
+    width: 180px;
+    height: 50px;
+    font-family: Montserrat;
+    color: white;
+    background-color: #10c9c3;
+    border: none;
+}
+
+.container {
+    padding-right: 90px;
+    padding-left: 90px;
+}
+
+body {
+    height: 5797;
+}
+
+#div-header {
+    background-color: #e9e9e9;
+    padding-top: 30px;
+}
+
+#div-header .menu {
+    float: right;
+}
+
+#div-header .menu li {
+    display: inline-block;
+    font-family: Montserrat;
+    font-size: 9pt;
+    margin-right: 30px;
+}
+
+#div-header .menu a:hover {
+    cursor: pointer;
+}
+
+#div-home {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-color: #e9e9e9;
+}
+
+#div-home h1 {
+    font-family: Montserrat;
+    font-size: 28pt;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+#div-home h2 {
+    font-family: NunitoSans;
+    font-size: 14pt;
+    line-height: 24px;
+    color: #787878;
+    margin-bottom: 30px;
+}
+
+#div-home .content {
+    width: 500px;
+    margin-left: auto;
+}
+
+.my-div {
+    height: 500px;
+}
