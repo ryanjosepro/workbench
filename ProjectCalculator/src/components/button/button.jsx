@@ -1,5 +1,5 @@
 import React from 'react';
-import './button.css';
+import './Button.css';
 
 export default props =>
     <button className='button'>{props.children}</button>
