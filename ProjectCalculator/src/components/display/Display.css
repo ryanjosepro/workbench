@@ -1,5 +1,10 @@
 .display {
     grid-column: span 4;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    font-size: 35pt;
+    padding-right: 10px;
 
     background-color: tomato;
 }
